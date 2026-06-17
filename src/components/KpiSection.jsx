@@ -19,6 +19,13 @@ export default function KpiSection() {
           </article>
         ))}
       </div>
+      <div className="kpi-stats-cta reveal">
+        <h3>¿Quieres ver el análisis completo?</h3>
+        <p>Consulta las gráficas interactivas del estudio turístico de Comayagua.</p>
+        <a className="btn btn--gold kpi-stats-cta__button" href="#/estadisticas">
+          Ver datos estadísticos
+        </a>
+      </div>
     </section>
   );
 }

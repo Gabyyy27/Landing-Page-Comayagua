@@ -35,6 +35,7 @@ src/
     FinalCta.jsx
     Footer.jsx
     SafeImage.jsx
+    StatsDashboardPage.jsx
   data/
     images.js
     kpis.js
@@ -82,6 +83,12 @@ Las rutas se administran en `src/data/images.js`. Si una imagen todavía no exis
 
 Edita `src/data/kpis.js`.
 
+## Página de estadísticas
+
+Se agregó una vista interna en `/#/estadisticas` para consultar el reporte público de Power BI sin cargarlo directamente en la landing principal.
+
+El reporte se incrusta desde Power BI en `src/components/StatsDashboardPage.jsx`. Si el enlace público cambia, actualiza la constante `POWER_BI_URL` en ese archivo.
+
 ## Dónde cambiar lugares turísticos
 
 Edita `src/data/places.js`.
@@ -100,3 +107,4 @@ Edita `src/data/places.js`.
 - Audiencias objetivo.
 - CTA final.
 - Footer del proyecto universitario.
+- Página interna de estadísticas con reporte Power BI.
